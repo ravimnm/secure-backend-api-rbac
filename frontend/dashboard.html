@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+</head>
+
+<body>
+
+<h2>Task Dashboard</h2>
+
+<input id="title" placeholder="Task title">
+<input id="description" placeholder="Description">
+
+<button onclick="createTask()">Add Task</button>
+
+<h3>Your Tasks</h3>
+
+<ul id="tasks"></ul>
+
+<button onclick="logout()">Logout</button>
+
+<script src="app.js"></script>
+
+<script>
+loadTasks()
+</script>
+
+</body>
+</html>
